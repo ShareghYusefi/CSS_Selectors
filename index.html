@@ -14,7 +14,18 @@
             tag { property: value; }
       */
 
-      /* selecting all h3 tags */
+      /* class selector(.): selecting all elements with class name 
+         We can name a class anything we want and use the class attribute to apply the styles to the elements.
+      */
+      .sub-heading {
+        color: brown;
+      }
+
+      .sub-heading-font {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* element selector (tag name): selecting all h3 tags */
       h3 {
         color: red;
       }
@@ -42,5 +53,17 @@
       mollitia.
     </p>
     <h3>Lorem ipsum dolor sit amet.</h3>
+    <h4 class="sub-heading sub-heading-font">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, inventore?
+    </h4>
+    <h4>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, inventore?
+    </h4>
+    <h4 class="sub-heading sub-heading-font">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, inventore?
+    </h4>
+    <h4>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, inventore?
+    </h4>
   </body>
 </html>
